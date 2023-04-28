@@ -1,6 +1,6 @@
 body {
     background-image: url(/Imagenes/desktop-wallpaper-yingyang-wolves-in-2021.jpg);
-    background-repeat: no-repeat;}
+}
 
 
 .header {
@@ -43,7 +43,7 @@ body {
 
 .Shows ol {font-family: Arial, Helvetica, sans-serif;}
 .ShowsTourB {
-    width:900px;
+    max-width: 900px;
     height: 200px;
     background-image: url(/Imagenes/534344-linkin-park.jpg);
     background-position: 50% 50%;;
@@ -57,4 +57,18 @@ body {
     text-align: justify;
     letter-spacing: 2px;
     text-shadow: 1px 1px 2px black;
+}
+
+/********* N O S O T R O S *********/
+.WhoM {
+    background-color: black;
+    max-width: 1130px;
+    padding: 15px;
+}
+
+.WhoM p{
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e8e8e8;
 }
