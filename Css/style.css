@@ -1,11 +1,11 @@
 body {
-    background-image: url(/Imagenes/desktop-wallpaper-yingyang-wolves-in-2021.jpg);
+    background-image: url(/Img/desktop-wallpaper-yingyang-wolves-in-2021.jpg);
 }
 
 
 .header {
     height: 200px;
-    background-image: url(/Imagenes/inicio.jpg);
+    background-image: url(/Img/inicio.jpg);
 }
 
 .header h1 {
@@ -21,7 +21,7 @@ body {
 
 .Shows {
     padding: 10px;
-    background-image: url(/Imagenes/_Desktop.jpg);
+    background-image: url(/Img/_Desktop.jpg);
     background-repeat: no-repeat; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
@@ -45,7 +45,7 @@ body {
 .ShowsTourB {
     max-width: 900px;
     height: 200px;
-    background-image: url(/Imagenes/534344-linkin-park.jpg);
+    background-image: url(/Img/534344-linkin-park.jpg);
     background-position: 50% 50%;;
     border: inset 5px black;
 }
@@ -71,4 +71,35 @@ body {
     letter-spacing: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #e8e8e8;
+}
+
+footer {
+    border-top: 30px solid rgb(192, 192, 192);
+    height: auto;
+    background-image: url(../Img/fcover_0.jpg);
+    color:#e8e8e8;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align:center;
+    font-size: 10px;
+}
+
+footer img {
+    width: 20%;
+    height: auto;
+}
+
+footer a {
+    text-align: right;
+    letter-spacing: 2px;
+    color:#e8e8e8;
+    font-size: 30px;
+    transition: 1s;
+}
+
+footer a:hover {
+    color:#0d6efd;
+    transition: 1s;
 }
