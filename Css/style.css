@@ -2,7 +2,7 @@ body {
     background-image: url(/Img/desktop-wallpaper-yingyang-wolves-in-2021.jpg);
 }
 
-
+/********* H E A D E R *********/
 .header {
     height: 200px;
     background-image: url(/Img/inicio.jpg);
@@ -18,6 +18,8 @@ body {
     line-height: 330%;
     text-shadow: 1px 1px 2px black;
 }
+
+/********* P R O X I M O S S H O W S *********/
 
 .Shows {
     padding: 10px;
@@ -42,7 +44,10 @@ body {
 }
 
 .Shows ol {font-family: Arial, Helvetica, sans-serif;}
-.ShowsTourB {
+
+/********* T O U R B O X *********/
+
+#TourB {
     max-width: 900px;
     height: 200px;
     background-image: url(/Img/534344-linkin-park.jpg);
@@ -50,29 +55,36 @@ body {
     border: inset 5px black;
 }
 
-.ShowsTourC {
-    width:900px;
+.TourC {
+    max-width:445px;
     background-color: rgba(255, 255, 255, 0.411);
-    padding: 5px;
     text-align: justify;
     letter-spacing: 2px;
+    padding: 5px;
     text-shadow: 1px 1px 2px black;
+    border-bottom: solid 2px black;
+    display: inline-block;
 }
-
-/********* N O S O T R O S *********/
-.WhoM {
-    background-color: black;
-    max-width: 1130px;
-    padding: 15px;
-}
-
-.WhoM p{
+.TourC h2 {
+    max-width: 445px;
+    text-transform: uppercase;
+    text-shadow:1px 1px 2px #afabab;
+    padding: 2px;
+    letter-spacing: 5px;
     text-align: center;
-    letter-spacing: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #e8e8e8;
+    border-bottom: dashed 1px black;
 }
 
+.TourC li {
+    max-width: 445px;
+    text-align:justify;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px 2px black;
+    font-weight: 400;
+} 
+
+/********* F O O T E R *********/
 footer {
     border-top: 30px solid rgb(192, 192, 192);
     height: auto;
