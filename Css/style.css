@@ -1,11 +1,29 @@
 body {
-    background-image: url(/Img/desktop-wallpaper-yingyang-wolves-in-2021.jpg);
+    background-image: url(../Img/desktop-wallpaper-yingyang-wolves-in-2021.jpg);
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 /********* H E A D E R *********/
 .header {
     height: 200px;
-    background-image: url(/Img/inicio.jpg);
+    background-image: url(../Img/inicio.jpg);
 }
 
 .header h1 {
@@ -23,7 +41,7 @@ body {
 
 .Shows {
     padding: 10px;
-    background-image: url(/Img/_Desktop.jpg);
+    background-image: url(../Img/_Desktop.jpg);
     background-repeat: no-repeat; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
@@ -50,25 +68,24 @@ body {
 #TourB {
     max-width: 900px;
     height: 200px;
-    background-image: url(/Img/534344-linkin-park.jpg);
+    background-image: url(../Img/534344-linkin-park.jpg);
     background-position: 50% 50%;;
     border: inset 5px black;
 }
 
 .TourC {
-    max-width:445px;
-    background-color: rgba(255, 255, 255, 0.411);
+    max-width:900px;
+    background-color: #747373;
     text-align: justify;
     letter-spacing: 2px;
     padding: 5px;
     text-shadow: 1px 1px 2px black;
     border-bottom: solid 2px black;
-    display: inline-block;
 }
 .TourC h2 {
-    max-width: 445px;
+    max-width: 900px;
     text-transform: uppercase;
-    text-shadow:1px 1px 2px #afabab;
+    text-shadow:1px 1px 2px #747373;
     padding: 2px;
     letter-spacing: 5px;
     text-align: center;
@@ -76,7 +93,7 @@ body {
 }
 
 .TourC li {
-    max-width: 445px;
+    max-width: 900px;
     text-align:justify;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
