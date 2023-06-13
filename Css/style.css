@@ -26,13 +26,9 @@ body {
     overflow: hidden;
   }
   
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+.video-container video {
+      width: 100%;
+}
 
   
 /********* P R O X I M O S S H O W S *********/
