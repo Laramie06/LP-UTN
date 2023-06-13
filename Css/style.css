@@ -125,8 +125,3 @@ footer a {
     font-size: 30px;
     transition: 1s;
 }
-
-footer a:hover {
-    color:#0d6efd;
-    transition: 1s;
-}
