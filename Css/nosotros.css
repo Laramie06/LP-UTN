@@ -22,12 +22,18 @@
 }
 
 .WhoMembers {
-    padding-top: 1px; 
     background-color: #e8e8e8;
-    max-width: 360px;
-    padding: 15px;
+    min-height: 650px;
+    max-height: 650px;
+    min-width: 370px;
+    max-width: 370px;
+    padding: 5px;
     border-left:  solid 2px black;
     border-right:  solid 2px black;
     border-bottom: solid 2px black;
-    display: inline-block;
+}
+
+.WhoMembers h2 {
+    text-align:center;
+    border-bottom: dashed 1px black;
 }
